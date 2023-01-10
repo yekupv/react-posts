@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: aliceblue;
+	font-family: "Roboto", sans-serif;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+:root {
+	--main-color: rgb(69, 146, 146);
+}
+.App {
+	width: 810px;
+}
+
+.post {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid var(--main-color);
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 15px;
+}
+.post__btns {
+	display: flex;
+}
+.post-enter {
+	transform: translateX(-250px);
+}
+.post-enter-active {
+	transform: translateX(0);
+	transition: all 500ms ease-in;
+}
+.post-exit {
+	opacity: 1;
+}
+.post-exit-active {
+	transform: translateX(-250px);
+	transition: all 500ms ease-in;
+}
+
+.page__wrapper {
+	margin-top: 30px;
+	display: flex;
+}
+
+.page {
+	padding: 10px;
+	border: 2px solid teal;
+	cursor: pointer;
+}
+
+.page__current {
+	background: var(--main-color);
+	color: aliceblue;
+}
+
+.navbar {
+	height: 50px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+}
+
+.navbar__links {
+	margin-left: auto;
+}
