@@ -21,6 +21,9 @@
         modified by 3rd filter
         
         pseudo auth functionality: other pages cant be accessed without logging in, works with reloaded page by saving its value in localStorage
+        
+        
+        DEPLOY [https://yekupv.github.io/react-posts/#/posts]
 ```
 ![image](https://user-images.githubusercontent.com/74732300/182053845-68f81b51-3e0b-4891-ba3b-de76ef0ae6c2.png)
 ![image](https://user-images.githubusercontent.com/74732300/182054954-40f05f95-f3eb-4543-950d-cb0c822b7209.png)
